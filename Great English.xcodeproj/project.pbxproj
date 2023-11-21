@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FB779F2B0AC59F003AE6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB779E2B0AC59F003AE6E0 /* AppDelegate.swift */; };
+		32FB77A32B0AC59F003AE6E0 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77A12B0AC59F003AE6E0 /* Main.html */; };
+		32FB77A52B0AC59F003AE6E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77A42B0AC59F003AE6E0 /* Icon.png */; };
+		32FB77A72B0AC59F003AE6E0 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77A62B0AC59F003AE6E0 /* Style.css */; };
+		32FB77A92B0AC59F003AE6E0 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77A82B0AC59F003AE6E0 /* Script.js */; };
+		32FB77AB2B0AC59F003AE6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB77AA2B0AC59F003AE6E0 /* ViewController.swift */; };
+		32FB77AE2B0AC59F003AE6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77AC2B0AC59F003AE6E0 /* Main.storyboard */; };
+		32FB77B02B0AC5A2003AE6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77AF2B0AC5A2003AE6E0 /* Assets.xcassets */; };
+		32FB77B82B0AC5A2003AE6E0 /* Great English Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 32FB77B72B0AC5A2003AE6E0 /* Great English Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		32FB77BD2B0AC5A2003AE6E0 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FB77BC2B0AC5A2003AE6E0 /* SafariWebExtensionHandler.swift */; };
+		32FB77C02B0AC5A2003AE6E0 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77BF2B0AC5A2003AE6E0 /* _locales */; };
+		32FB77C22B0AC5A2003AE6E0 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77C12B0AC5A2003AE6E0 /* images */; };
+		32FB77C42B0AC5A2003AE6E0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77C32B0AC5A2003AE6E0 /* manifest.json */; };
+		32FB77C62B0AC5A2003AE6E0 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77C52B0AC5A2003AE6E0 /* background.js */; };
+		32FB77C82B0AC5A2003AE6E0 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77C72B0AC5A2003AE6E0 /* content.js */; };
+		32FB77CA2B0AC5A2003AE6E0 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77C92B0AC5A2003AE6E0 /* popup.html */; };
+		32FB77CC2B0AC5A2003AE6E0 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77CB2B0AC5A2003AE6E0 /* popup.css */; };
+		32FB77CE2B0AC5A2003AE6E0 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 32FB77CD2B0AC5A2003AE6E0 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FB77B92B0AC5A2003AE6E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FB77932B0AC59F003AE6E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FB77B62B0AC5A2003AE6E0;
+			remoteInfo = "Great English Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32FB77D62B0AC5A2003AE6E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32FB77B82B0AC5A2003AE6E0 /* Great English Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32FB779B2B0AC59F003AE6E0 /* Great English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great English.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FB779E2B0AC59F003AE6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32FB77A22B0AC59F003AE6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		32FB77A42B0AC59F003AE6E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		32FB77A62B0AC59F003AE6E0 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		32FB77A82B0AC59F003AE6E0 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		32FB77AA2B0AC59F003AE6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32FB77AD2B0AC59F003AE6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FB77AF2B0AC5A2003AE6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FB77B22B0AC5A2003AE6E0 /* Great English.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Great English.entitlements"; sourceTree = "<group>"; };
+		32FB77B72B0AC5A2003AE6E0 /* Great English Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Great English Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FB77BC2B0AC5A2003AE6E0 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		32FB77BF2B0AC5A2003AE6E0 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		32FB77C12B0AC5A2003AE6E0 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		32FB77C32B0AC5A2003AE6E0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		32FB77C52B0AC5A2003AE6E0 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		32FB77C72B0AC5A2003AE6E0 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		32FB77C92B0AC5A2003AE6E0 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		32FB77CB2B0AC5A2003AE6E0 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		32FB77CD2B0AC5A2003AE6E0 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		32FB77CF2B0AC5A2003AE6E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FB77D02B0AC5A2003AE6E0 /* Great_English_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Great_English_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FB77982B0AC59F003AE6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FB77B42B0AC5A2003AE6E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FB77922B0AC59F003AE6E0 = {
+			isa = PBXGroup;
+			children = (
+				32FB779D2B0AC59F003AE6E0 /* Great English */,
+				32FB77BB2B0AC5A2003AE6E0 /* Great English Extension */,
+				32FB779C2B0AC59F003AE6E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32FB779C2B0AC59F003AE6E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FB779B2B0AC59F003AE6E0 /* Great English.app */,
+				32FB77B72B0AC5A2003AE6E0 /* Great English Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FB779D2B0AC59F003AE6E0 /* Great English */ = {
+			isa = PBXGroup;
+			children = (
+				32FB779E2B0AC59F003AE6E0 /* AppDelegate.swift */,
+				32FB77AA2B0AC59F003AE6E0 /* ViewController.swift */,
+				32FB77AC2B0AC59F003AE6E0 /* Main.storyboard */,
+				32FB77AF2B0AC5A2003AE6E0 /* Assets.xcassets */,
+				32FB77B22B0AC5A2003AE6E0 /* Great English.entitlements */,
+				32FB77A02B0AC59F003AE6E0 /* Resources */,
+			);
+			path = "Great English";
+			sourceTree = "<group>";
+		};
+		32FB77A02B0AC59F003AE6E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32FB77A12B0AC59F003AE6E0 /* Main.html */,
+				32FB77A42B0AC59F003AE6E0 /* Icon.png */,
+				32FB77A62B0AC59F003AE6E0 /* Style.css */,
+				32FB77A82B0AC59F003AE6E0 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32FB77BB2B0AC5A2003AE6E0 /* Great English Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32FB77BC2B0AC5A2003AE6E0 /* SafariWebExtensionHandler.swift */,
+				32FB77CF2B0AC5A2003AE6E0 /* Info.plist */,
+				32FB77D02B0AC5A2003AE6E0 /* Great_English_Extension.entitlements */,
+				32FB77BE2B0AC5A2003AE6E0 /* Resources */,
+			);
+			path = "Great English Extension";
+			sourceTree = "<group>";
+		};
+		32FB77BE2B0AC5A2003AE6E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32FB77BF2B0AC5A2003AE6E0 /* _locales */,
+				32FB77C12B0AC5A2003AE6E0 /* images */,
+				32FB77C32B0AC5A2003AE6E0 /* manifest.json */,
+				32FB77C52B0AC5A2003AE6E0 /* background.js */,
+				32FB77C72B0AC5A2003AE6E0 /* content.js */,
+				32FB77C92B0AC5A2003AE6E0 /* popup.html */,
+				32FB77CB2B0AC5A2003AE6E0 /* popup.css */,
+				32FB77CD2B0AC5A2003AE6E0 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FB779A2B0AC59F003AE6E0 /* Great English */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FB77D72B0AC5A2003AE6E0 /* Build configuration list for PBXNativeTarget "Great English" */;
+			buildPhases = (
+				32FB77972B0AC59F003AE6E0 /* Sources */,
+				32FB77982B0AC59F003AE6E0 /* Frameworks */,
+				32FB77992B0AC59F003AE6E0 /* Resources */,
+				32FB77D62B0AC5A2003AE6E0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FB77BA2B0AC5A2003AE6E0 /* PBXTargetDependency */,
+			);
+			name = "Great English";
+			productName = "Great English";
+			productReference = 32FB779B2B0AC59F003AE6E0 /* Great English.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FB77B62B0AC5A2003AE6E0 /* Great English Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FB77D32B0AC5A2003AE6E0 /* Build configuration list for PBXNativeTarget "Great English Extension" */;
+			buildPhases = (
+				32FB77B32B0AC5A2003AE6E0 /* Sources */,
+				32FB77B42B0AC5A2003AE6E0 /* Frameworks */,
+				32FB77B52B0AC5A2003AE6E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Great English Extension";
+			productName = "Great English Extension";
+			productReference = 32FB77B72B0AC5A2003AE6E0 /* Great English Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FB77932B0AC59F003AE6E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					32FB779A2B0AC59F003AE6E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					32FB77B62B0AC5A2003AE6E0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 32FB77962B0AC59F003AE6E0 /* Build configuration list for PBXProject "Great English" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FB77922B0AC59F003AE6E0;
+			productRefGroup = 32FB779C2B0AC59F003AE6E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FB779A2B0AC59F003AE6E0 /* Great English */,
+				32FB77B62B0AC5A2003AE6E0 /* Great English Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FB77992B0AC59F003AE6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB77A52B0AC59F003AE6E0 /* Icon.png in Resources */,
+				32FB77AE2B0AC59F003AE6E0 /* Main.storyboard in Resources */,
+				32FB77A92B0AC59F003AE6E0 /* Script.js in Resources */,
+				32FB77A32B0AC59F003AE6E0 /* Main.html in Resources */,
+				32FB77B02B0AC5A2003AE6E0 /* Assets.xcassets in Resources */,
+				32FB77A72B0AC59F003AE6E0 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FB77B52B0AC5A2003AE6E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB77C62B0AC5A2003AE6E0 /* background.js in Resources */,
+				32FB77CC2B0AC5A2003AE6E0 /* popup.css in Resources */,
+				32FB77CA2B0AC5A2003AE6E0 /* popup.html in Resources */,
+				32FB77C22B0AC5A2003AE6E0 /* images in Resources */,
+				32FB77C42B0AC5A2003AE6E0 /* manifest.json in Resources */,
+				32FB77C02B0AC5A2003AE6E0 /* _locales in Resources */,
+				32FB77C82B0AC5A2003AE6E0 /* content.js in Resources */,
+				32FB77CE2B0AC5A2003AE6E0 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FB77972B0AC59F003AE6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB77AB2B0AC59F003AE6E0 /* ViewController.swift in Sources */,
+				32FB779F2B0AC59F003AE6E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FB77B32B0AC5A2003AE6E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FB77BD2B0AC5A2003AE6E0 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FB77BA2B0AC5A2003AE6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FB77B62B0AC5A2003AE6E0 /* Great English Extension */;
+			targetProxy = 32FB77B92B0AC5A2003AE6E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FB77A12B0AC59F003AE6E0 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FB77A22B0AC59F003AE6E0 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		32FB77AC2B0AC59F003AE6E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FB77AD2B0AC59F003AE6E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FB77D12B0AC5A2003AE6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32FB77D22B0AC5A2003AE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		32FB77D42B0AC5A2003AE6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Great English Extension/Great_English_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74R62CGQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Great English Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Great English Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corkeprojects.Great-English.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32FB77D52B0AC5A2003AE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Great English Extension/Great_English_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74R62CGQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Great English Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Great English Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corkeprojects.Great-English.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		32FB77D82B0AC5A2003AE6E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Great English/Great English.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74R62CGQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Great English";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corkeprojects.Great-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		32FB77D92B0AC5A2003AE6E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Great English/Great English.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74R62CGQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Great English";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.corkeprojects.Great-English";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FB77962B0AC59F003AE6E0 /* Build configuration list for PBXProject "Great English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FB77D12B0AC5A2003AE6E0 /* Debug */,
+				32FB77D22B0AC5A2003AE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FB77D32B0AC5A2003AE6E0 /* Build configuration list for PBXNativeTarget "Great English Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FB77D42B0AC5A2003AE6E0 /* Debug */,
+				32FB77D52B0AC5A2003AE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FB77D72B0AC5A2003AE6E0 /* Build configuration list for PBXNativeTarget "Great English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FB77D82B0AC5A2003AE6E0 /* Debug */,
+				32FB77D92B0AC5A2003AE6E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FB77932B0AC59F003AE6E0 /* Project object */;
+}
