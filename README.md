@@ -60,7 +60,7 @@ The toolbar icon will display all of the words that were substituted:
 
 
 **ISSUES**
-
+ 
 **POP-UP TEXT**
 Testing the extension out on Wikipedia I found that it will not work with pop-up bubble text, only the website text contained in the HTML head tags.
 
