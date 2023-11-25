@@ -1,10 +1,10 @@
 {
     "extension_name": {
         "message": "Great English",
-        "description": "Propper English shall reign once more."
+        "description": "Proper English shall reign once more."
     },
     "extension_description": {
-        "message": "Oust American diction for propper British English.",
+        "message": "Oust American diction for proper British English.",
         "description": "Return to a time before conventions between dialects diverged by replacing all American scribblings with the true British orthographical form."
     }
 }
