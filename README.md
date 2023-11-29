@@ -63,16 +63,16 @@ The toolbar icon will display all of the words that were substituted:
 
 **ISSUES**
  
-- **POP-UP TEXT** : Testing the extension on Wikipedia I found that it will not work with pop-up bubble text, only the website text contained within the HTML header tags.
+- [ ] **POP-UP TEXT** : Testing the extension on Wikipedia I found that it will not work with pop-up bubble text, only the website text contained within the HTML header tags.
 
-- **LOGIC** : Relying on simple word substitution logic oddities such a "Cookie Policy" becomes "Biscuit Policy". But I can live with that. However, something more complex may need to be implemented with words like "Subway", which is a brand name and not just a mode of transport.
+- [ ] **LOGIC** : Relying on simple word substitution logic oddities such a "Cookie Policy" becomes "Biscuit Policy". But I can live with that. However, something more complex may need to be implemented with words like "Subway", which is a brand name and not just a mode of transport.
 
-- **LOGIC** : Another issue is the frequency of a word used, as "Line" can be used in place of the word "queue", but the word line is perfectly valid in many other circumstances, of which the current logic takes no account of.
+- [ ] **LOGIC** : Another issue is the frequency of a word used, as "Line" can be used in place of the word "queue", but the word line is perfectly valid in many other circumstances, of which the current logic takes no account of.
 
-- **PLURAL WORDS** : Given that the logic will only look for whole word matches (regex : \\b gi) the plural of a word will slip through the filter.
+- [ ] **PLURAL WORDS** : Given that the logic will only look for whole word matches (regex : \\b gi) the plural of a word will slip through the filter.
 
-- **WEIGHTS/MEASURES/CURRENCY** : I am also keen on converting time (everything to GMT), measurements (Metric to Imperial) and currency (US Dollar into British Pound Sterling).
+- [ ] **WEIGHTS/MEASURES/CURRENCY** : I am also keen on converting time (everything to GMT), measurements (Metric to Imperial) and currency (US Dollar into British Pound Sterling).
 
-- **SLANG** : For fear of falling down a rabbit hole, I only touched on the idea of _slang_ e.g. "Haz" rather than "Have". However, a feature like this would be impossible to keep on top of, unlike measurements.
+- [ ] **SLANG** : For fear of falling down a rabbit hole, I only touched on the idea of _slang_ e.g. "Haz" rather than "Have". However, a feature like this would be impossible to keep on top of, unlike measurements.
 
-- **CODE** : The world of code is dominated by American spelling and the last thing a programmer needs when scraping a block of logic from the internet is for the syntax to be modified e.g. ".color = .red", so I will need to scan Javascript for coding examples to be omitted from any substitutions.
+- [ ] **CODE** : The world of code is dominated by American spelling and the last thing a programmer needs when scraping a block of logic from the internet is for the syntax to be modified e.g. ".color = .red", so I will need to scan Javascript for coding examples to be omitted from any substitutions.
